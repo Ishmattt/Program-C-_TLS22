@@ -1,0 +1,23 @@
+//udah belajar array cuyy :)
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    srand((unsigned) time(NULL));
+    int random = rand(),jml_opsi,hasil,i=0;
+    cout<<"masukkan jumlah opsi :";
+    cin>>jml_opsi;
+    cout<<"\n";
+    string opsi[jml_opsi];
+    while(i<jml_opsi){
+        cout<<"opsi "<<i+1<<": ";
+        cin>>opsi[i];
+        i++;
+    }
+    cout<<"\nC++ Memutuskan!!!\n\n"<<opsi[random%jml_opsi];
+    
+
+    return 0;
+}
