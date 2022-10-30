@@ -1,3 +1,3 @@
-# Program-C-_TLS22
-Nama :Muhammad Ishmatullah
-Kelompok (Thevenin)
+liat bot discord randomizer
+jadi penasaran
+trus nyoba nyoba mbuat kodenya :)
